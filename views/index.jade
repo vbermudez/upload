@@ -1,0 +1,15 @@
+extends layout.jade
+
+block content          
+  .container.theme-showcase(role="main")
+    #uploadBox.jumbotron
+      h2 Upload 0.0.2
+      span#uploadArea
+        #drop-area
+          h3 Arrastre aquí los ficheros
+        .page-header
+          h4 Ficheros subidos
+        #file-list
+
+  script(type="text/javascript", src="/js/uuid.js")
+  script(type="text/javascript", src="/js/upload.js")

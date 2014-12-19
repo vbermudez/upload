@@ -1,0 +1,18 @@
+{
+  "name": "upload",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.*",
+    "socket.io": "1.*",
+    "jade": "*",
+    "body-parser": "*",
+    "connect-multiparty": "*",
+    "method-override": "*",
+    "serve-static": "*",
+    "mongoose": "*"
+  }
+}
